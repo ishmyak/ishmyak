@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishmyak/max-term"><b>MAX Term</b></a> ·
   <a href="https://github.com/ishmyak/trayicon"><b>Tray Monitor</b></a> ·
+  <a href="https://github.com/ishmyak/meshtastic-firmware-ru"><b>Meshtastic Firmware RU</b></a> ·
   <a href="https://github.com/ishmyak?tab=repositories">Все репозитории</a>
 </p>
 
@@ -55,6 +56,24 @@
 
 Основное окружение проекта — Astra Linux с Fly; для других рабочих столов
 необходим системный трей, доступный через Qt.
+
+### [Meshtastic Firmware RU →](https://github.com/ishmyak/meshtastic-firmware-ru)
+
+**Русский шрифт и исправления интерфейса для Heltec Mesh Pocket 5000 mAh.**
+Fork прошивки [Meshtastic](https://github.com/meshtastic/firmware) с сохранением
+авторства исходного проекта.
+
+- Русский шрифт Terminus и отдельный RU-вариант сборки.
+- Исправления отображения символов, эмодзи и переноса текста.
+- Готовые UF2 и DFU/OTA ZIP с контрольными суммами SHA256.
+
+`C++` · `PlatformIO` · `nRF52840` · `LoRa` · `Meshtastic`
+
+[Скачать прошивку](https://github.com/ishmyak/meshtastic-firmware-ru/releases/tag/v2.8.2-ru.1) ·
+[Исходный проект](https://github.com/meshtastic/firmware)
+
+> Релиз предварительный: сборка и полный набор native-тестов прошли,
+> но на физическом устройстве эта версия пока не проверена.
 
 ## Учебные материалы
 
